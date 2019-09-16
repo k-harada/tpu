@@ -25,7 +25,7 @@ MASK_RCNN_CFG = {
     'input_rand_hflip': True,
     'gt_mask_size': 112,
     # dataset specific parameters
-    'num_classes': 91,
+    'num_classes': 301,
     'skip_crowd_during_training': True,
     'use_category': True,
     # Region Proposal Network
@@ -97,7 +97,7 @@ MASK_RCNN_CFG = {
     # ['resnet18', 'resnet34', 'resnet50', 'resnet101', 'resnet152',
     # 'resnet200'] for resnet backbone.
     # ['mnasnet-a1', 'mnasnet-b1', 'mnasnet-small'] for mnasnet backbone.
-    'backbone': 'resnet50',
+    'backbone': 'resnet101',
     'checkpoint': '',
     # Optional string filepath to a checkpoint to warm-start from. By default
     # all variables are warm-started, and it is assumed that vocabularies and
